@@ -1,0 +1,21 @@
+[general]
+[data]
+datatype=FLT4S
+nodatavalue=-9999
+byteorder=little
+nbands=11
+bandorder=BIL
+minvalue=0:0:0:0:0:0:-3.6893488147419103e+19:-3.6893488147419103e+19:-3.6893488147419103e+19:-3.6893488147419103e+19:-3.6893488147419103e+19
+maxvalue=100:100:100:1:597:1729:3.6893488147419103e+19:3.6893488147419103e+19:3.6893488147419103e+19:3.6893488147419103e+19:3.6893488147419103e+19
+categorical=FALSE
+[description]
+layername=LULC_trees:LULC_water:LULC_crops:clc_urban_areas:distance_railway:distance_waterway:wc_bio1:wc_bio9:era5_temperature:slope:elevation
+[georeference]
+nrows=7848
+ncols=9249
+xmin=5.8660714285708124
+ymin=47.270833333333442
+xmax=15.041666666666019
+ymax=55.056547619047706
+projection=+proj=longlat +datum=WGS84 +no_defs
+wkt=GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]
